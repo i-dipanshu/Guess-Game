@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&display=swap");
+
+:root {
+  --dark: #0a3343;
+  --bg: #ffe9db;
+  --font1: "Montserrat", sans-serif;
+  --font2: "Josefin Sans", sans-serif;
+}
+html {
+  /* to make 1 rem = 10px */
+  font-size: 62.5%;
+  font-family: var(--font1);
+}
+
+/* css to it responsive */
+
+@media (min-width: 831px) {
+  html {
+    font-size: 53.5%;
+  }
+}
+@media (max-width: 830px) {
+  html {
+    font-size: 48%;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 38%;
+  }
+}
+@media (max-width: 500px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (max-width: 410px) {
+  html {
+    font-size: 26%;
+  }
+}
+@media (max-width: 375px) {
+  html {
+    font-size: 20%;
+  }
+}
+@media (max-width: 270px) {
+  html {
+    font-size: 15%;
+  }
+}
